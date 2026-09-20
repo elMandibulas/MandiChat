@@ -25,4 +25,4 @@ If you want to chat on any chat in Matches window, just press on the black "chat
 
 <img src="ChatWindow.png" alt="Discovery Window" width="20%">
 
-To exit chat just clic backwards in your android mobile.
+To exit chat just clic backwards on your android mobile.
