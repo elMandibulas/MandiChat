@@ -13,7 +13,7 @@ When you connect with another user that has given a Like to you, the message "Ma
 
 <img src="MatchesWindow.png" alt="Discovery Window" width="50%">
 
-If you want to modify your profle, upload any photo of you, or deleting all the data you have introduced on this app,you will have to press the "pencil" button on the top left corner of Discovery window and you will be introduced to this window for profile editing:
+If you want to modify your profle, upload any photo of yourself, or delete all the data you have introduced on this app,you will have to press the "pencil" button on the top left corner of Discovery window and you will be introduced to this window for profile editing:
 
 <img src="EditProfileWindow.png" alt="Discovery Window" width="50%">
 
