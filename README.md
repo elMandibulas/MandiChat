@@ -6,7 +6,7 @@ Once saved the profile you will see the Discovery Window:
 
 <img src="DiscoveryWindow.png" alt="Discovery Window" width="20%">
 
-Here you will have to clic "Like" or "No" if you want to establish chat with the person proposed by the app. Thiswindow can bealways accessed by clic "Descubrir" button.
+Here you will have to clic "Like" or "No" if you want to establish chat with the person proposed by the app. This window can be always accessed by clic "Descubrir" button.
 You can also see all the user photos loaded by the user. A user with 1/1 "standard MandiChat photo" will appear when the no photo is uploaded by the user.
 
 When you connect with another user that has given a Like to you, the message "Match creado" will appear on screen". You can the go to Matches to see what chat has been created for both of you. No one can see this conversation between you and the other user. All the chats are completely private. This is the window that will appear if you press Matches button on the bottom right part of the window:
@@ -17,4 +17,12 @@ If you want to modify your profle, upload any photo of you, or deleting all the 
 
 <img src="EditProfileWindow.png" alt="Discovery Window" width="20%">
 
-To delete any photo just press on it and it will disappear
+To delete any photo just press on it and it will disappear.
+
+You can also upload 4 photos to the database, or even Delete your profile from MandiChat if you press red button "Borrar cuenta permanentemente" on the bottom part of this window.
+
+If you want to chat on any chat in Matches window, just press on the black "chat" box and this chat window will appear:
+
+<img src="ChatWindow.png" alt="Discovery Window" width="20%">
+
+To exit chat just clic backwards in your android mobile.
