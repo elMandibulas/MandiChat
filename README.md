@@ -27,5 +27,11 @@ If you want to chat on any chat in Matches window, just press on the black "chat
 
 To exit chat just clic backwards on your android mobile.
 
+##############################
+
+Because this apk is from a third party, and is not included in Google Market Place, you will have to allow the installation. Some mobile devices display a drop-down menu; you tap the arrow and accept the installation anyway.
+
+##############################
 
 Download the last version of the app MandiChat here: [Download MandiChat.APK v1.0](https://github.com/elMandibulas/MandiChat/releases/download/v1.0/MandiChat_v1.0.apk)
+
