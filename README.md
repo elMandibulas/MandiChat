@@ -33,7 +33,11 @@ In the v1.1 of Mandichat, you can delete any profile you don't want to chat with
 
 You can also press on any photo in the matches or chat window, and the profile of the user will appear, so that you can verify its profile data and photos.
 
-<img src="profileView01.jpeg" alt="Chat and Match Deletion" width="25%">
+<p float="left">
+  <img src="profileView01.jpeg" alt="profile view in Match window" width="20%" />
+  <img src="profileView02.jpeg" alt="profile view in chat window" width="20%" /> 
+</p>
+
 
 ##############################
 
