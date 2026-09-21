@@ -49,4 +49,4 @@ Download the first version of the app MandiChat here: [Download MandiChat.APK v1
 
 Download the last version of the app MandiChat here: [Download MandiChat.APK v1.1](https://github.com/elMandibulas/MandiChat/releases/download/v1.1/MandiChat_v1.1.apk)
 
-This second version contains chat deleting and profile watching from Matches window, on any chat where you press the user photo.
+This second version contains chat deleting and profile watching from Matches or Chat windows, on any chat where you press the user photo.
