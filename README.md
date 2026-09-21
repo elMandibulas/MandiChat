@@ -35,6 +35,6 @@ Because this apk is from a third party, and is not included in Google Market Pla
 
 Download the first version of the app MandiChat here: [Download MandiChat.APK v1.0](https://github.com/elMandibulas/MandiChat/releases/download/v1.0/MandiChat_v1.0.apk)
 
-Download the last version of the app MandiChat here: [Download MandiChat.APK v1.0](https://github.com/elMandibulas/MandiChat/releases/download/v1.1/MandiChat_v1.1.apk)
+Download the last version of the app MandiChat here: [Download MandiChat.APK v1.1](https://github.com/elMandibulas/MandiChat/releases/download/v1.1/MandiChat_v1.1.apk)
 
-This second version contains chat deleting and profile watching from Matchs window, on any chat where you press the user photo.
+This second version contains chat deleting and profile watching from Matches window, on any chat where you press the user photo.
