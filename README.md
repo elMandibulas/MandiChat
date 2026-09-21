@@ -25,7 +25,14 @@ If you want to chat on any chat in Matches window, just press on the black "chat
 
 <img src="ChatWindow.png" alt="Discovery Window" width="50%">
 
-To exit chat just clic backwards on your android mobile.
+To exit chat just click backwards on your android mobile.
+
+In the v1.1 of Mandichat, you can delete any profile you don't want to chat with, by pressing the Trash icon on the top right part of the chat, and all data related (likes, messages, match) will be deleted from database. You will have to click like on its user again on the discovery window, and the same the user with you, to maintain a new chat between both.
+
+<img src="chat_deletion.jpeg" alt="Chat and Match Deletion" width="50%">
+
+You can also press on any photo in the matches or chat window, and the profile of the user will appear, so that you can verify its profile data and photos.
+
 
 ##############################
 
