@@ -11,7 +11,7 @@ You can also see all the user photos loaded by the user. A user with 1/1 "standa
 
 When you connect with another user that has given a Like to you, the message "Match creado" will appear on screen". You can the go to Matches to see what chat has been created for both of you. No one can see this conversation between you and the other user. All the chats are completely private. This is the window that will appear if you press Matches button on the bottom right part of the window:
 
-<img src="MatchesWindow.png" alt="Discovery Window" width="30%">
+<img src="MatchesWindow02.png" alt="Discovery Window" width="30%">
 
 If you want to modify your profle, upload any photo of yourself, or delete all the data you have introduced on this app,you will have to press the "pencil" button on the top left corner of Discovery window and you will be introduced to this window for profile editing:
 
