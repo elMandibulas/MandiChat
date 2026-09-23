@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-merged_res-40:/layout_activity_main.xml.flat",
+        "source": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.mandi.chat.app-merged_res-40:/layout_activity_profile_view.xml.flat",
+        "source": "com.mandi.chat.app-main-42:/layout/activity_profile_view.xml"
+    },
+    {
+        "merged": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-merged_res-40:/layout_item_match.xml.flat",
+        "source": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-main-42:/layout/item_match.xml"
+    },
+    {
+        "merged": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-merged_res-40:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-main-42:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-merged_res-40:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-main-42:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-merged_res-40:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-main-42:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-merged_res-40:/drawable_bg_red_circle.xml.flat",
+        "source": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-main-42:/drawable/bg_red_circle.xml"
+    },
+    {
+        "merged": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-merged_res-40:/layout_fragment_discovery.xml.flat",
+        "source": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-main-42:/layout/fragment_discovery.xml"
+    },
+    {
+        "merged": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-merged_res-40:/drawable_gradient_black_bottom.xml.flat",
+        "source": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-main-42:/drawable/gradient_black_bottom.xml"
+    },
+    {
+        "merged": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-merged_res-40:/layout_activity_profile_view.xml.flat",
+        "source": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-main-42:/layout/activity_profile_view.xml"
+    },
+    {
+        "merged": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-merged_res-40:/layout_activity_profile_detail.xml.flat",
+        "source": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-main-42:/layout/activity_profile_detail.xml"
+    },
+    {
+        "merged": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-merged_res-40:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-main-42:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-merged_res-40:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-main-42:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-merged_res-40:/layout_item_photo.xml.flat",
+        "source": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-main-42:/layout/item_photo.xml"
+    },
+    {
+        "merged": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-merged_res-40:/layout_fragment_matches.xml.flat",
+        "source": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-main-42:/layout/fragment_matches.xml"
+    },
+    {
+        "merged": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-main-42:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-merged_res-40:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-main-42:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-main-42:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-merged_res-40:/menu_bottom_nav_menu.xml.flat",
+        "source": "/home/peladj/.gradle/daemon/8.5/com.mandi.chat.app-main-42:/menu/bottom_nav_menu.xml"
+    }
+]

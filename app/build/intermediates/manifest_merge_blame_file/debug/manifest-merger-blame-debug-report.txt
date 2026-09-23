@@ -1,0 +1,167 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mandi.chat"
+4    android:versionCode="2"
+5    android:versionName="2.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:3:5-67
+11-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:4:5-79
+12-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:4:22-76
+13    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+13-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:5:5-76
+13-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:5:22-73
+14    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+14-->[io.appwrite:sdk-for-android:8.0.0] /home/peladj/.gradle/caches/transforms-3/ea1e3f7b42f7476435324105d92ad661/transformed/sdk-for-android-8.0.0/AndroidManifest.xml:8:5-77
+14-->[io.appwrite:sdk-for-android:8.0.0] /home/peladj/.gradle/caches/transforms-3/ea1e3f7b42f7476435324105d92ad661/transformed/sdk-for-android-8.0.0/AndroidManifest.xml:8:22-74
+15
+16    <permission
+16-->[androidx.core:core:1.12.0] /home/peladj/.gradle/caches/transforms-3/4dde0fce54f6341b6da19770f76a2130/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+17        android:name="com.mandi.chat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.12.0] /home/peladj/.gradle/caches/transforms-3/4dde0fce54f6341b6da19770f76a2130/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.12.0] /home/peladj/.gradle/caches/transforms-3/4dde0fce54f6341b6da19770f76a2130/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.mandi.chat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.12.0] /home/peladj/.gradle/caches/transforms-3/4dde0fce54f6341b6da19770f76a2130/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.12.0] /home/peladj/.gradle/caches/transforms-3/4dde0fce54f6341b6da19770f76a2130/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:6:5-33:19
+23        android:allowBackup="true"
+23-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:7:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.12.0] /home/peladj/.gradle/caches/transforms-3/4dde0fce54f6341b6da19770f76a2130/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:icon="@mipmap/ic_launcher"
+27-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:10:9-43
+28        android:label="MandiChat"
+28-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:9:9-34
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:11:9-54
+30        android:usesCleartextTraffic="true" >
+30-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:8:9-44
+31        <activity
+31-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:12:9-21:20
+32            android:name="com.mandi.chat.MainActivity"
+32-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:13:13-41
+33            android:configChanges="orientation|screenSize|keyboardHidden"
+33-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:15:13-74
+34            android:exported="true"
+34-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:14:13-36
+35            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+35-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:16:13-69
+36            <intent-filter>
+36-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:17:13-20:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:18:17-69
+37-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:18:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:19:17-77
+39-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:19:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:22:9-25:72
+43            android:name="com.mandi.chat.ChatActivity"
+43-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:23:13-41
+44            android:exported="false"
+44-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:24:13-37
+45            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+45-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:25:13-69
+46        <activity
+46-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:26:9-29:72
+47            android:name="com.mandi.chat.EditProfileActivity"
+47-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:27:13-48
+48            android:exported="false"
+48-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:28:13-37
+49            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+49-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:29:13-69
+50        <activity
+50-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:30:9-31:72
+51            android:name="com.mandi.chat.ProfileDetailActivity"
+51-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:30:19-56
+52            android:exported="false"
+52-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:30:57-81
+53            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+53-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:31:13-69
+54        <activity android:name="com.mandi.chat.ProfileViewActivity" />
+54-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:32:9-57
+54-->/home/peladj/Documentos/AndroidAPKs/elMandiChat/app/src/main/AndroidManifest.xml:32:19-54
+55
+56        <provider
+56-->[androidx.emoji2:emoji2:1.2.0] /home/peladj/.gradle/caches/transforms-3/ebd7e8b0739ea5852a86f1ec4bdee03d/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+57            android:name="androidx.startup.InitializationProvider"
+57-->[androidx.emoji2:emoji2:1.2.0] /home/peladj/.gradle/caches/transforms-3/ebd7e8b0739ea5852a86f1ec4bdee03d/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+58            android:authorities="com.mandi.chat.androidx-startup"
+58-->[androidx.emoji2:emoji2:1.2.0] /home/peladj/.gradle/caches/transforms-3/ebd7e8b0739ea5852a86f1ec4bdee03d/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+59            android:exported="false" >
+59-->[androidx.emoji2:emoji2:1.2.0] /home/peladj/.gradle/caches/transforms-3/ebd7e8b0739ea5852a86f1ec4bdee03d/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+60            <meta-data
+60-->[androidx.emoji2:emoji2:1.2.0] /home/peladj/.gradle/caches/transforms-3/ebd7e8b0739ea5852a86f1ec4bdee03d/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+61                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+61-->[androidx.emoji2:emoji2:1.2.0] /home/peladj/.gradle/caches/transforms-3/ebd7e8b0739ea5852a86f1ec4bdee03d/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+62                android:value="androidx.startup" />
+62-->[androidx.emoji2:emoji2:1.2.0] /home/peladj/.gradle/caches/transforms-3/ebd7e8b0739ea5852a86f1ec4bdee03d/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+63            <meta-data
+63-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/peladj/.gradle/caches/transforms-3/f32f8a6bb35ea86a0bdc621e810ebd3e/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+64-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/peladj/.gradle/caches/transforms-3/f32f8a6bb35ea86a0bdc621e810ebd3e/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+65                android:value="androidx.startup" />
+65-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/peladj/.gradle/caches/transforms-3/f32f8a6bb35ea86a0bdc621e810ebd3e/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/peladj/.gradle/caches/transforms-3/f46e4c7fe0d07f4beb7dccb050afcb8b/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+67-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/peladj/.gradle/caches/transforms-3/f46e4c7fe0d07f4beb7dccb050afcb8b/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+68                android:value="androidx.startup" />
+68-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/peladj/.gradle/caches/transforms-3/f46e4c7fe0d07f4beb7dccb050afcb8b/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+69        </provider>
+70
+71        <receiver
+71-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/peladj/.gradle/caches/transforms-3/f46e4c7fe0d07f4beb7dccb050afcb8b/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+72            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+72-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/peladj/.gradle/caches/transforms-3/f46e4c7fe0d07f4beb7dccb050afcb8b/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+73            android:directBootAware="false"
+73-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/peladj/.gradle/caches/transforms-3/f46e4c7fe0d07f4beb7dccb050afcb8b/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+74            android:enabled="true"
+74-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/peladj/.gradle/caches/transforms-3/f46e4c7fe0d07f4beb7dccb050afcb8b/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+75            android:exported="true"
+75-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/peladj/.gradle/caches/transforms-3/f46e4c7fe0d07f4beb7dccb050afcb8b/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+76            android:permission="android.permission.DUMP" >
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/peladj/.gradle/caches/transforms-3/f46e4c7fe0d07f4beb7dccb050afcb8b/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+77            <intent-filter>
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/peladj/.gradle/caches/transforms-3/f46e4c7fe0d07f4beb7dccb050afcb8b/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+78                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+78-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/peladj/.gradle/caches/transforms-3/f46e4c7fe0d07f4beb7dccb050afcb8b/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+78-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/peladj/.gradle/caches/transforms-3/f46e4c7fe0d07f4beb7dccb050afcb8b/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+79            </intent-filter>
+80            <intent-filter>
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/peladj/.gradle/caches/transforms-3/f46e4c7fe0d07f4beb7dccb050afcb8b/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+81                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/peladj/.gradle/caches/transforms-3/f46e4c7fe0d07f4beb7dccb050afcb8b/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/peladj/.gradle/caches/transforms-3/f46e4c7fe0d07f4beb7dccb050afcb8b/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+82            </intent-filter>
+83            <intent-filter>
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/peladj/.gradle/caches/transforms-3/f46e4c7fe0d07f4beb7dccb050afcb8b/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+84                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/peladj/.gradle/caches/transforms-3/f46e4c7fe0d07f4beb7dccb050afcb8b/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/peladj/.gradle/caches/transforms-3/f46e4c7fe0d07f4beb7dccb050afcb8b/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+85            </intent-filter>
+86            <intent-filter>
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/peladj/.gradle/caches/transforms-3/f46e4c7fe0d07f4beb7dccb050afcb8b/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+87                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/peladj/.gradle/caches/transforms-3/f46e4c7fe0d07f4beb7dccb050afcb8b/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/peladj/.gradle/caches/transforms-3/f46e4c7fe0d07f4beb7dccb050afcb8b/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+88            </intent-filter>
+89        </receiver>
+90    </application>
+91
+92</manifest>

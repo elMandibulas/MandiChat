@@ -1,0 +1,50 @@
+usuarios borrados:
+
+user_6aabd691003a6c7e21ce
+user_6aabd7b00030fbd9a5c6
+user_6aabd7b1002c886d052a
+user_6aabd1c100048dfadd10
+user_6aac3e050016360d3d29
+user_6aac4085003da63d6978
+
+papa: picopico26: 6aabe6fb00011728e459
+mama: inés: 6aabe69000064a8896a1
+
+
+foto subida:
+6aadb1e70002a7fe1158
+6aadb1e70002a7fe1158
+
+
+mandichat_db
+project_id 6aaa64e40001df66f2df
+endpoint: https://fra.cloud.appwrite.io/v1
+
+mi first project
+project_id 6aaa6442002e7aec8fcc
+endpoint: https://fra.cloud.appwrite.io/v1
+
+
+mis 4 fotos:
+6aadc112001c45ad2ac5
+6aadbc5700378c41e18f
+6aadbc5600166b9cc356
+6aadbc5500377409c1c2
+
+
+payuso2: user_6aae66b3002512fc7f18
+mandiFinal40: user_6aae5459002cde544af5
+
+madniFinal35 user_6aae569400314ddff56d 1 foto
+mandiFinal40 user_6aae5459002cde544af5 4 fotos
+mandiFinal 28 user_6aac3a700019d8589c23 1 foto
+payuso 6aad25ac003a0780c9c3
+picopico user_6aad3ad800125fafaf15
+
+picopico26 user_6aae9548002aa55ad6ea
+mandiFinal user_6aae5734000073c415df
+Inesita user_6aad3a3b002c29206f34
+Cristina user_6ab10f4c000a571a1299
+
+enlace Release creado:
+https://github.com/elMandibulas/MandiChat/releases/download/v1.0/MandiChat_v1.0.apk
