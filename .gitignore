@@ -1,0 +1,20 @@
+# Archivos del sistema y VS Code
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Compilación (Ignora la carpeta build completa)
+**/build/
+*.apk
+
+
+# Archivo con las constantes de appWrite
+**/AppwriteConstants.kt
+
+# Configuración local de tu PC (¡MUY IMPORTANTE!)
+local.properties
+
+# Archivos temporales generados por Gradle en tu PC
+.gradle/
+.idea/
+.cxx/
