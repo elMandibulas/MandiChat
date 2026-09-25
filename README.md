@@ -54,3 +54,10 @@ This second version contains chat deleting and profile watching from Matches or 
 Download the third version of the app MandiChat here: [Download MandiChat.APK v1.2](https://github.com/elMandibulas/MandiChat/releases/download/v1.2/MandiChat_v1.2.apk)
 
 This third version includes genre selection for any user creation or edition, and whatsapp-like message in chats, with the blue ticks when the other user reads your messages.
+
+
+Download the last version of the app MandiChat here: [Download MandiChat.APK v1.3](https://github.com/elMandibulas/MandiChat/releases/download/v1.3/MandiChat_v1.3.apk)
+
+this 1.3 version includes better Like/Dislike buttons, and new size of Genre radio buttons and increase of font.
+
+<img src="photos/Discovery_v1.3.jpeg" alt="New like/dislike buttons" width="30%">
