@@ -2,7 +2,9 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F5F5">
+    android:background="#F5F5F5"
+    android:clipChildren="false"
+    android:clipToPadding="false">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,8 +19,7 @@
             <androidx.viewpager2.widget.ViewPager2
                 android:id="@+id/viewPagerFotos"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:clipChildren="false" />
+                android:layout_height="match_parent" />
 
             <TextView
                 android:id="@+id/txtIndicator"
@@ -28,7 +29,7 @@
                 android:layout_margin="12dp"
                 android:background="#80000000"
                 android:padding="6dp"
-                android:text="1/4"
+                android:text="1/1"
                 android:textColor="#FFFFFF"
                 android:textSize="12sp" />
 
@@ -39,15 +40,13 @@
                 android:layout_gravity="top|start"
                 android:layout_margin="12dp"
                 android:src="@android:drawable/ic_menu_edit" />
-
         </FrameLayout>
 
         <TextView
             android:id="@+id/txtName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="16dp"
-            android:text="Nombre, 40"
+            android:padding="12dp"
             android:textSize="22sp"
             android:textStyle="bold"
             android:textColor="#000"/>
@@ -56,33 +55,40 @@
             android:id="@+id/txtBio"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingHorizontal="16dp"
-            android:text="Bio"
+            android:paddingHorizontal="12dp"
+            android:paddingBottom="4dp"
             android:textColor="#444"/>
 
         <LinearLayout
+            android:id="@+id/btnContainer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center"
-            android:padding="16dp">
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:paddingTop="12dp"
+            android:paddingBottom="16dp">
 
-            <Button
+            <ImageView
                 android:id="@+id/btnDislike"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_marginEnd="8dp"
-                android:text="NO" />
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_marginEnd="28dp"
+                android:background="@drawable/circle_white"
+                android:elevation="6dp"
+                android:padding="16dp"
+                android:src="@android:drawable/ic_menu_close_clear_cancel" />
 
-            <Button
+            <ImageView
                 android:id="@+id/btnLike"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_marginStart="8dp"
-                android:text="SI"
-                android:backgroundTint="#FF0000" />
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_marginStart="28dp"
+                android:background="@drawable/circle_green"
+                android:elevation="6dp"
+                android:padding="18dp"
+                android:src="@android:drawable/btn_star_big_on" />
         </LinearLayout>
     </LinearLayout>
 </FrameLayout>

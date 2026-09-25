@@ -2,17 +2,13 @@ package com.mandi.chat
 
 import android.content.Intent
 import android.graphics.Color
-import android.graphics.drawable.GradientDrawable
 import android.os.Bundle
 import android.util.Log
 import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
-import android.widget.ImageView
-import android.widget.LinearLayout
-import android.widget.TextView
+import android.widget.*
 import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
@@ -30,9 +26,11 @@ class DiscoveryFragment : Fragment() {
     private val seenIds = mutableSetOf<String>()
     private var pageCallback: ViewPager2.OnPageChangeCallback? = null
     private var filtroActual = "todos"
-    private lateinit var btnH: Button
-    private lateinit var btnM: Button
-    private lateinit var btnT: Button
+    private lateinit var btnH: RadioButton
+    private lateinit var btnM: RadioButton
+    private lateinit var btnT: RadioButton
+
+    private val Int.dp get() = (this * resources.displayMetrics.density).toInt()
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         return inflater.inflate(R.layout.fragment_discovery, container, false)
@@ -43,47 +41,55 @@ class DiscoveryFragment : Fragment() {
         val txtIndicator = view.findViewById<TextView>(R.id.txtIndicator)
         val txtName = view.findViewById<TextView>(R.id.txtName)
         val txtBio = view.findViewById<TextView>(R.id.txtBio)
-        val btnDislike = view.findViewById<Button>(R.id.btnDislike)
-        val btnLike = view.findViewById<Button>(R.id.btnLike)
+        val btnDislike = view.findViewById<ImageView>(R.id.btnDislike)
+        val btnLike = view.findViewById<ImageView>(R.id.btnLike)
         val btnEdit = view.findViewById<ImageView>(R.id.btnEditProfile)
         btnEdit.setOnClickListener { startActivity(Intent(requireContext(), EditProfileActivity::class.java)) }
 
-        val filterRow = LinearLayout(requireContext()).apply {
+        // ---- FILTROS RADIOBUTTONS SIN COLORES - FIX BLANCO Y 2 LINEAS ----
+        val filterRow = RadioGroup(requireContext()).apply {
             orientation = LinearLayout.HORIZONTAL
             gravity = Gravity.CENTER
-            setPadding(0, 8, 0, 16)
+            setPadding(0, 2.dp, 0, 4.dp)
+            clipChildren = false
+            clipToPadding = false
         }
 
-        fun makeChip(text: String): Button {
-            return Button(requireContext()).apply {
+        fun makeRadio(text: String): RadioButton {
+            return RadioButton(requireContext()).apply {
                 this.text = text
-                textSize = 10.5f
-                setPadding(8, 0, 8, 0)
-                minHeight = 0
-                minimumHeight = 0
+                textSize = 12.0f
+                isSingleLine = true
+                maxLines = 1
                 isAllCaps = false
-                val d = GradientDrawable().apply {
-                    shape = GradientDrawable.RECTANGLE
-                    cornerRadius = 50f
-                    setColor(Color.parseColor("#2A2A2A"))
+                setSingleLine(true)
+                // SIEMPRE OSCURO PARA QUE SE LEA
+                setTextColor(Color.parseColor("#222222"))
+                buttonTintList = android.content.res.ColorStateList.valueOf(Color.parseColor("#666666"))
+                setPadding(4.dp, 0, 4.dp, 0)
+                // WRAP_CONTENT PARA QUE NO SE CORTE
+                layoutParams = RadioGroup.LayoutParams(
+                    RadioGroup.LayoutParams.WRAP_CONTENT,
+                    RadioGroup.LayoutParams.WRAP_CONTENT
+                ).apply {
+                    setMargins(12.dp,0,12.dp,0)
                 }
-                background = d
-                setTextColor(Color.WHITE)
-                layoutParams = LinearLayout.LayoutParams(0, 80, 1f).apply { setMargins(8,0,8,0) }
             }
         }
 
-        btnT = makeChip("Todos")
-        btnH = makeChip("♂ Hombres")
-        btnM = makeChip("♀ Mujeres")
+        btnT = makeRadio("Todos")
+        btnH = makeRadio("Hombres")
+        btnM = makeRadio("Mujeres")
         filterRow.addView(btnT)
         filterRow.addView(btnH)
         filterRow.addView(btnM)
 
-        val btnContainer = btnDislike.parent as ViewGroup
+        val btnContainer = view.findViewById<ViewGroup>(R.id.btnContainer)
         val mainContainer = btnContainer.parent as ViewGroup
         val index = mainContainer.indexOfChild(btnContainer)
-        mainContainer.addView(filterRow, index)
+        if (filterRow.parent == null) {
+            mainContainer.addView(filterRow, index)
+        }
 
         pageCallback?.let { viewPager.unregisterOnPageChangeCallback(it) }
         pageCallback = object : ViewPager2.OnPageChangeCallback() {
@@ -99,13 +105,10 @@ class DiscoveryFragment : Fragment() {
         filtroActual = prefs.getString("filtroVer", "todos")?: "todos"
 
         fun pintarFiltro() {
-            val active = Color.parseColor("#25D366")
-            val inactive = Color.parseColor("#2A2A2A")
-            fun paint(b: Button, isActive: Boolean) {
-                val d = b.background as GradientDrawable
-                d.setColor(if(isActive) active else inactive)
-                d.setStroke(if(isActive) 0 else 2, if(isActive) active else Color.parseColor("#444444"))
-                b.setTextColor(if(isActive) Color.WHITE else Color.parseColor("#AAAAAA"))
+            fun paint(b: RadioButton, isActive: Boolean) {
+                b.isChecked = isActive
+                b.setTextColor(Color.parseColor("#222222")) // nunca blanco
+                b.paint.isFakeBoldText = isActive // negrita si activo
             }
             paint(btnT, filtroActual=="todos")
             paint(btnH, filtroActual=="hombres")
@@ -218,13 +221,13 @@ class DiscoveryFragment : Fragment() {
                 withContext(Dispatchers.Main) {
                     if (esMatch) {
                         AlertDialog.Builder(requireContext())
-                           .setTitle("¡Es un Match! 🔥")
-                           .setMessage("Tú y $otherName os habéis gustado. ¡Empieza a chatear!")
-                           .setPositiveButton("Chatear") { _, _ ->
+                       .setTitle("¡Es un Match! 🔥")
+                       .setMessage("Tú y $otherName os habéis gustado. ¡Empieza a chatear!")
+                       .setPositiveButton("Chatear") { _, _ ->
                                 (activity as? MainActivity)?.goToMatches()
                             }
-                           .setNegativeButton("Seguir viendo", null)
-                           .show()
+                       .setNegativeButton("Seguir viendo", null)
+                       .show()
                         (activity as? MainActivity)?.highlightMatchesTab()
                     }
                 }
